@@ -65,6 +65,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/Gemini_Generated_Image_yhm65qyhm65qyhm6.jpg",
+    shortcut: "/Gemini_Generated_Image_yhm65qyhm65qyhm6.jpg",
+    apple: "/Gemini_Generated_Image_yhm65qyhm65qyhm6.jpg",
+  },
   keywords: [
     "Muhammad Fiaz",
     "muhammadfiaz.com",
