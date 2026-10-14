@@ -83,15 +83,6 @@ export function AboutPageClient({ timelineItems }: AboutPageClientProps) {
                 <Github className="h-4 w-4" />
               </Link>
               <Link
-                href={xUrl}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="retro-social-icon"
-                aria-label="X profile"
-              >
-                <Twitter className="h-4 w-4" />
-              </Link>
-              <Link
                 href={linkedinUrl}
                 target="_blank"
                 rel="noreferrer noopener"
@@ -99,15 +90,6 @@ export function AboutPageClient({ timelineItems }: AboutPageClientProps) {
                 aria-label="LinkedIn profile"
               >
                 <Linkedin className="h-4 w-4" />
-              </Link>
-              <Link
-                href={youtubeUrl}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="retro-social-icon"
-                aria-label="YouTube profile"
-              >
-                <Youtube className="h-4 w-4" />
               </Link>
             </div>
           </div>

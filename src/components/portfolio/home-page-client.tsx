@@ -73,7 +73,6 @@ import type {
 import {
   githubUrl,
   linkedinUrl,
-  linkHubUrl,
   siteHost,
   xUrl,
 } from "@/lib/site-config";
@@ -269,7 +268,7 @@ export function HomePageClient({
               <div className="border-4 border-black bg-card p-0">
                 <Image
                   src={avaterimg}
-                  alt="Muhammad Fiaz"
+                  alt="Fajri Ramadhan"
                   width={384}
                   height={384}
                   loading="eager"
@@ -289,15 +288,6 @@ export function HomePageClient({
                   aria-label="GitHub profile"
                 >
                   <Github className="h-4 w-4" />
-                </Link>
-                <Link
-                  href={xUrl}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="retro-social-icon"
-                  aria-label="X profile"
-                >
-                  <Twitter className="h-4 w-4" />
                 </Link>
                 <Link
                   href={linkedinUrl}

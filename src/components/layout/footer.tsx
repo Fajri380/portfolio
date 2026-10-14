@@ -86,16 +86,6 @@ export function Footer() {
               <Github className="h-4 w-4" />
             </Link>
             <Link
-              href={xUrl}
-              className="retro-social-icon"
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="Twitter"
-              data-footer-social
-            >
-              <Twitter className="h-4 w-4" />
-            </Link>
-            <Link
               href={linkedinUrl}
               className="retro-social-icon"
               target="_blank"
@@ -104,26 +94,6 @@ export function Footer() {
               data-footer-social
             >
               <Linkedin className="h-4 w-4" />
-            </Link>
-            <Link
-              href={youtubeUrl}
-              className="retro-social-icon"
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="YouTube"
-              data-footer-social
-            >
-              <Youtube className="h-4 w-4" />
-            </Link>
-            <Link
-              href={linkHubUrl}
-              className="retro-social-icon"
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="Link Hub"
-              data-footer-social
-            >
-              <Link2 className="h-4 w-4" />
             </Link>
           </div>
 
