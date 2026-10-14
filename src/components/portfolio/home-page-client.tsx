@@ -515,15 +515,7 @@ export function HomePageClient({
           <h2 className="font-display text-3xl uppercase sm:text-4xl">
             Connect Hub
           </h2>
-          <Button
-            asChild
-            variant="secondary"
-            className="w-full border-4 border-black shadow-retro-sm sm:w-auto uppercase"
-          >
-            <Link href={linkHubUrl} target="_blank" rel="noreferrer noopener">
-              Open Link Hub
-            </Link>
-          </Button>
+          
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           {links.slice(0, 9).map((item) => (
