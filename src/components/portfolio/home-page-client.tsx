@@ -251,7 +251,7 @@ export function HomePageClient({
                   asChild
                   className="w-full border-4 border-black px-4 py-2 text-sm font-black uppercase tracking-wide shadow-retro retro-press sm:w-auto sm:px-6 sm:py-3 sm:text-base"
                 >
-                  <Link href="mailto:contact@muhammadfiaz.com">Contact Me</Link>
+                  <Link href="mailto:fajriramadhan8998@gmail.com">Contact Me</Link>
                 </Button>
                 <Button
                   variant="secondary"

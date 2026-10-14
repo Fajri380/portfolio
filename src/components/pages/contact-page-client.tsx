@@ -155,7 +155,12 @@ export function ContactPageClient() {
                 asChild
                 className="w-full border-4 border-black shadow-retro-sm uppercase"
               >
-                <Link href="mailto:contact@muhammadfiaz.com">Email Me</Link>
+                <Link
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=fajriramadhan8998@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Email Me
+                  </Link>
               </Button>
             </Card.Content>
           </Card>

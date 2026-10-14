@@ -96,50 +96,6 @@ export function Footer() {
               <Linkedin className="h-4 w-4" />
             </Link>
           </div>
-
-          <div className="flex flex-wrap items-center justify-center gap-2 lg:justify-end">
-            <Link href="/robots.txt" className="retro-link" data-footer-policy>
-              Robots
-            </Link>
-            <Link href="/sitemap.xml" className="retro-link" data-footer-policy>
-              Sitemap
-            </Link>
-            <Link
-              href="/privacy-policy"
-              className="retro-link"
-              data-footer-policy
-            >
-              Privacy
-            </Link>
-            <Link
-              href="/refund-policy"
-              className="retro-link"
-              data-footer-policy
-            >
-              Refund
-            </Link>
-            <Link
-              href="/terms-of-service"
-              className="retro-link"
-              data-footer-policy
-            >
-              Terms
-            </Link>
-            <Link
-              href="/delivery-policy"
-              className="retro-link"
-              data-footer-policy
-            >
-              Delivery
-            </Link>
-            <Link
-              href="/cookies-policy"
-              className="retro-link"
-              data-footer-policy
-            >
-              Cookies
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
